@@ -1,0 +1,9 @@
+
+
+Identifying relationship rule violation: The problem can be resolved by adding one or more weak entities or making the relationship (Rel6) non-identifying.
+
+Redundant foriegn Key :Entity2 contains the attricute which is the primary key of the entity 1 and entity4.Can be resolved by Renaming or removing
+
+Identification dependency cardinality rule violation: Rel7, the min amd max cardinality of a weak entity in all identifying relationship should be (1,1).The problem can be resolved by changing the cardinality to (1,1).
+
+Primary Key Voilation:The primary key for the weak entity must come from a strong entity.But in the entity6 it is not there.So it can be resolved by adding the keys from Entity7.
